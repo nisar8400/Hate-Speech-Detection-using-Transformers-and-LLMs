@@ -1,0 +1,41 @@
+Evaluation Metrics:
+Accuracy: 0.9319
+
+Classification Report:
+Not Hate:
+  precision: 0.9455
+  recall: 0.9775
+  f1-score: 0.9612
+  support: 621.0000
+Sarcastic:
+  precision: 0.9837
+  recall: 0.8916
+  f1-score: 0.9354
+  support: 203.0000
+Explicit:
+  precision: 0.8406
+  recall: 0.8571
+  f1-score: 0.8488
+  support: 203.0000
+Implicit:
+  precision: 0.9350
+  recall: 0.9078
+  f1-score: 0.9212
+  support: 206.0000
+accuracy: 0.9319
+macro avg:
+  precision: 0.9262
+  recall: 0.9085
+  f1-score: 0.9166
+  support: 1233.0000
+weighted avg:
+  precision: 0.9328
+  recall: 0.9319
+  f1-score: 0.9318
+  support: 1233.0000
+
+Confusion Matrix:
+[[607   3   5   6]
+ [  0 181  15   7]
+ [ 29   0 174   0]
+ [  6   0  13 187]]
